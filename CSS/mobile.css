@@ -5,11 +5,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  image-rendering: optimizeSpeed;
 }
 
 .wrapper-container {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Variables */
